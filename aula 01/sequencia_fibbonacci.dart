@@ -6,7 +6,6 @@ void main() {
   int b = 1;
   int c = 0;
 
-  print(" A sequência é a seguinte ");
   for (int i = 0; i < n; i++) {
     if (i <= 1) {
       c = i;
@@ -15,6 +14,6 @@ void main() {
       a = b;
       b = c;
     }
-    print(c);
+    print(" Seguindo a sequência de fibonnaci $c");
   }
 }
